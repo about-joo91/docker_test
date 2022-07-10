@@ -3,7 +3,7 @@ services:
   flask:
     image: aboutjoo/docker-memo:latest
     ports:
-      - "80:8080"
+      - "80:5000"
   mongo:
     image: mongo:latest
     volumes:
